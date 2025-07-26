@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.rakib{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 10px;
+}
+
+label {
+    width: 150px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  min-width: 200px;
+  max-width: 300px;
+  width: auto;
+  padding: 6px;
+}
+
+textarea {
+    resize: vertical;
+}
+.form-submit {
+    text-align: center;
+    margin-top: 20px;
+}
+.form-submit input[type="submit"] {
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2971c4;
+}
